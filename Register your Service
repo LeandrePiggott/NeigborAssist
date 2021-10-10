@@ -1,0 +1,31 @@
+ 
+ <div class="container-sm">
+        <div id="box">
+            <div class="container login-container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 login-form-1">
+                        <h3>Register</h3>
+                        <form name="registration" action="registerSuccess.html" onsubmit="return formValidation();">
+                            <div class="form-floating">
+                                <input type="text" name="name" class="form-control" id="floatingName" placeholder="John Smith">
+                                <label for="floatingInput">Full Name</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" name="Suburb" class="form-control" id="floatingInput" placeholder="Suburb">
+                                <label for="floatingInput">Suburb</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating justify-content-center">
+                                <input type="submit" class="btnSubmit" name="submit" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
