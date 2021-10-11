@@ -21,6 +21,10 @@
                         <h3>Register</h3>
                         <form name="registration" action="registerSuccess.html" onsubmit="return formValidation();">
                             <div class="form-floating">
+                                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating">
                                 <input type="text" name="name" class="form-control" id="floatingName" placeholder="John Smith">
                                 <label for="floatingInput">Full Name</label>
                             </div>
@@ -29,12 +33,8 @@
                                 <label for="floatingInput">Email address</label>
                             </div>
                             <div class="form-floating">
-                                <input type="password" name="Suburb" class="form-control" id="floatingInput" placeholder="Suburb">
-                                <label for="floatingInput">Suburb</label>
-                            </div>
-                            <div class="form-floating">
-                                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Password</label>
+                                <input type="text" name="Suburb" class="form-control" id="floatingInput" placeholder="Service Provided">
+                                <label for="floatingInput">Service Provided</label>
                             </div>
                             <div class="form-floating justify-content-center">
                                 <input type="submit" class="btnSubmit" name="submit" value="Submit" />
